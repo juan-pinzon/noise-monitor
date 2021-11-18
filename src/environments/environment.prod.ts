@@ -8,5 +8,5 @@ export const environment = {
     messagingSenderId: "111709569263",
     appId: "1:111709569263:web:3c8ff618e9a57b396f9b1a"
   },
-  baseUri: ''
+  baseUri: 'http://ec2-18-206-159-115.compute-1.amazonaws.com/'
 };

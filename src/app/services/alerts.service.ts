@@ -11,7 +11,7 @@ export class AlertsService {
   constructor(private httpClient: HttpClient) { }
 
   getAlerts() {
-    return this.httpClient.get(environment.baseUri + 'api/measurement/alerts/CO20-626')
+    return this.httpClient.get(environment.baseUri + 'api/measurement/alerts')
       .pipe(
         map((response: any) => [...response.data])
       )
