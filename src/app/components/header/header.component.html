@@ -1,0 +1,38 @@
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      Noise Monitor
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a routerLink="/home" routerLinkActive="is-active" class="navbar-item">
+        Home
+      </a>
+
+<!--      <a class="navbar-item">-->
+<!--        Documentation-->
+<!--      </a>-->
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+<!--          <a class="button is-primary">-->
+<!--            <strong>Sign up</strong>-->
+<!--          </a>-->
+          <a href="javascript:void(0);" class="button is-light" (click)="logout()">
+            Log out
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
